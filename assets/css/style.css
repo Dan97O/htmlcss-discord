@@ -28,26 +28,30 @@ body{
 }
 
 .banner_link{
-    background-color: yellow;
+   /*  background-color: yellow; */
     width: 70%;
-    height: 20px;
+    height: 30px;
     display: flex;
 }
 
 .logo{
-    background-color: orange;
+   /*  background-color: orange; */
     width: 10%;
     height: 100%;
 }
 
 .link{
-    background-color: green;
+  /*   background-color: green; */
     width: 80%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
 }
 
 .login{
-    background-color: red;
+    /* background-color: red; */
     width: 10%;
     height: 100%;
 }
@@ -66,6 +70,26 @@ body{
     background-color: gray;
     border-radius: 10px;
 }
+
+/* style banner link */
+.link div {
+    padding-left: 10px;
+    padding-right: 5px;
+   }
+   
+   a{
+    text-decoration: none;
+    color: var(--tb-light);
+    font-size: 12px;
+   }
+   
+   .login {
+       background-color: var(--tb-light);
+       height: 100%;
+       width: 70px;
+       border-radius: 40px;
+       border: none;
+   }
 
 /* #endregion Header */
 
@@ -182,3 +206,5 @@ body{
     width: 35px;
 }
 /* #endregion banner footer */
+
+
