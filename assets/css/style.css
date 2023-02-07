@@ -280,7 +280,6 @@ ul li{
 
 /* #region banner footer */
 .section_footer {
-    border-top: 1px solid var(--tb-light);
     background-color: var(--tb-footer);
     height: 50px;
     width: 100%;
@@ -290,6 +289,7 @@ ul li{
 }
 
 .banner_registration {
+    border-top: 1px solid #ffffff;
     height: 40px;   
     width: 55%;
     display: flex;
@@ -319,6 +319,12 @@ ul li{
     color: var(--tb-light);
     font-size: 8px;
    
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid var(--tb-light);
+    width: 60%;
 }
 
 /* #endregion banner footer */
