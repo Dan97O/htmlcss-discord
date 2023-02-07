@@ -130,7 +130,6 @@ body{
 /* #region section banner */
 .section_banner {
     height: 400px;
-  /*   background-color: orange; */
     display: flex;
     align-items: center;
     justify-content:center;
@@ -139,7 +138,6 @@ body{
 .container_banner{
     height: 300px;  
     width: 60%;
-    /* background-color: aqua; */
     display: flex;
 }
 
@@ -156,33 +154,6 @@ body{
     padding: 1rem;
 }
 
-.section_banner2 {
-    height: 400px;
-  /*   background-color: orange; */
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-
-.container_banner2{
-    height: 300px;  
-    width: 60%;
-    /* background-color: aqua; */
-    display: flex;
-}
-
-.text_banner2{
-    width: 35%;
-    height: 100%;
-    color: var(--tb-footer);
-}
-
-.image_banner2{
-    width: 60%;
-    height: 100%;
-    margin-right: 1rem;
-    display: flex;
-}
 
 .banner_p p{
     padding-top: 20px;
@@ -243,30 +214,67 @@ body{
 }
 
 .columns{
-    background-color: aqua;
     height: 200px;  
     width: 55%;
     display: flex;
 }
 
 .col1 {
-    background-color: orange;
-    width: 40%;
-    height: 100%;
-    border: 1px solid black;
+    width: 35%;
+    height: 100%;  
 }
 
+.container_ita{
+    padding-top: 5px;
+}
+
+.ita{
+    height: 8px;
+}
+
+.language{
+    font-size: 8px;
+    align-items:center;
+    color:var(--tb-light);
+}
+
+.col1 h3{
+    font-size: 15px;
+    color: var(--tb-bottom);
+}
+
+
 .col2 {
-    background-color: green;
+   /*  background-color: green; */
     width: 15%;
     height: 100%;
-    border: 1px solid black;
+    padding-left: 5px;
+
 }
+
+.name_list span{
+    color: var(--tb-bottom);
+    font-size: 8px;
+    padding-bottom: 10px;
+}
+
+.name_list ul{
+    font-size: 7px;
+    color: var(--tb-light);
+    list-style: none;
+    padding-top: 5px;
+}
+
+ul li{
+    padding-bottom: 5px;
+
+}
+
 /* #endregion columns footer */
 
 /* #region banner footer */
 .section_footer {
-    margin-top: 1px;
+    border-top: 1px solid var(--tb-light);
     background-color: var(--tb-footer);
     height: 50px;
     width: 100%;
@@ -276,7 +284,6 @@ body{
 }
 
 .banner_registration {
-    background-color: orange;
     height: 40px;   
     width: 55%;
     display: flex;
@@ -284,17 +291,30 @@ body{
     justify-content:space-between;
 }
 
-.logo-banner{
-    background-color: aqua;
+.logo-footer{
     height: 12px;
     width: 35px;
 }
 
 .registration-banner{
-    background-color: aqua;
     height: 12px;
     width: 35px;
 }
+
+.logo-footer div{
+    background-size: cover;
+}
+
+.sign_up{
+    background-color: var(--tb-bottom);
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    color: var(--tb-light);
+    font-size: 8px;
+   
+}
+
 /* #endregion banner footer */
 
 
