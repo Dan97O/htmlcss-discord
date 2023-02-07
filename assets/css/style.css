@@ -5,7 +5,7 @@
 }
 
 :root {
-    --tb-header: #3161e0;
+    --tb-header: #3460e9;
     --tb-light: #ffffff;
     --tb-footer: #23272a;
 }
@@ -28,20 +28,17 @@ body{
 }
 
 .banner_link{
-   /*  background-color: yellow; */
     width: 70%;
     height: 30px;
     display: flex;
 }
 
 .logo{
-   /*  background-color: orange; */
     width: 10%;
     height: 100%;
 }
 
 .link{
-  /*   background-color: green; */
     width: 80%;
     height: 100%;
     display: flex;
@@ -51,24 +48,22 @@ body{
 }
 
 .login{
-    /* background-color: red; */
     width: 10%;
     height: 100%;
 }
 
 .container_header {
-    height: 250px;
     background-color: var(--tb-header);
     display: flex;
     align-items: center;
     justify-content:center;
+    position: relative;
 }
 
 .text_header {
-    height: 200px;  
     width: 50%;
-    background-color: gray;
     border-radius: 10px;
+    position: absolute;
 }
 
 /* style banner link */
@@ -81,15 +76,53 @@ body{
     text-decoration: none;
     color: var(--tb-light);
     font-size: 12px;
-   }
+}
    
-   .login {
+.login {
        background-color: var(--tb-light);
        height: 100%;
        width: 70px;
        border-radius: 40px;
        border: none;
-   }
+}
+
+.jumbo{
+    width: 100%;
+    background-size: contain;
+}
+
+.text_title {
+    color: var(--tb-light);
+    text-align: center;
+}
+
+.description_header {
+    text-align: center;
+    color: var(--tb-light);
+    padding-top: 20px;
+}
+
+.download_button{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.download{
+    background-color: var(--tb-light);
+    border-radius: 40px;
+    border: none;
+    padding: 14px;
+}
+
+.download2{
+    margin-left: 10px;
+    background-color: var(--tb-footer);
+    border-radius: 40px;
+    border: none;
+    padding: 14px;
+    color: var(--tb-light);
+}
+/* /stylebanner link */
 
 /* #endregion Header */
 
